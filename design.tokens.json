@@ -1,0 +1,144 @@
+{
+  "$description": "FigmaTokensSample (FTS) Design Tokens",
+  "FTS": {
+    "$extensions": {
+      "dsys.level": "sheet",
+      "dsys.prefix": "FTS",
+      "dsys.fullName": "FigmaTokensSample"
+    },
+    "color": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ColorSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the color tokens",
+      "primary": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "primary",
+          "dsys.nodeId": "1:204"
+        },
+        "$description": "primary color tokens",
+        "primary-100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:e1eac0d1a9043a8b5ac43aa91f5331054d3f571c,"
+          },
+          "$value": {
+            "hex": "#5c1a00",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-200": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-200",
+            "dsys.index": 1,
+            "dsys.styleId": "S:2e348f966cbc23000733eb6007a0ea32ce33124f,"
+          },
+          "$value": {
+            "hex": "#852803",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-300": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-300",
+            "dsys.index": 2,
+            "dsys.styleId": "S:7c28f354b561c566436619c9c1d5e1a34faca55f,"
+          },
+          "$value": {
+            "hex": "#ad3709",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-400": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-400",
+            "dsys.index": 3,
+            "dsys.styleId": "S:b7fbe5f91a82a3c1d20e432cc50c57fbb5380ed5,"
+          },
+          "$value": {
+            "hex": "#d64810",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary",
+            "dsys.index": 4,
+            "dsys.styleId": "S:77ac0bb27994ea9a2aff8048a95322e32ba1c4d3,"
+          },
+          "$value": {
+            "hex": "#fe5b1a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-600": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-600",
+            "dsys.index": 5,
+            "dsys.styleId": "S:615742a65648897fe07c7a510a207a70758c0baa,"
+          },
+          "$value": {
+            "hex": "#ff7b46",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-700": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-700",
+            "dsys.index": 6,
+            "dsys.styleId": "S:3883ac7d597f0e84ae6acee1bd2fc21c0b47e76d,"
+          },
+          "$value": {
+            "hex": "#ff9a73",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-800": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-800",
+            "dsys.index": 7,
+            "dsys.styleId": "S:dda554c18c48db030bf9b5e37af192042716407a,"
+          },
+          "$value": {
+            "hex": "#ffba9f",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-900": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-900",
+            "dsys.index": 8,
+            "dsys.styleId": "S:f82a5b84573764c7abb83beec91b94e91a6095b7,"
+          },
+          "$value": {
+            "hex": "#ffdacc",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      }
+    }
+  }
+}
