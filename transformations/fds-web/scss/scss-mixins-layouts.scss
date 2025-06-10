@@ -1,0 +1,498 @@
+@mixin alignment-center {
+  --ai-h: center;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: center;
+}
+@mixin alignment-center-center {
+  --ai-h: center;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: center;
+}
+@mixin alignment-center-left {
+  --ai-h: center;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: center;
+}
+@mixin alignment-left-center {
+  --ai-h: center;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: center;
+}
+@mixin alignment-center-right {
+  --ai-h: center;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: center;
+}
+@mixin alignment-right-center {
+  --ai-h: center;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: center;
+}
+@mixin alignment-top {
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-top-left {
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-left-top {
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-left {
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-top-center {
+  --ai-h: flex-start;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-start;
+}
+@mixin alignment-center-top {
+  --ai-h: flex-start;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-start;
+}
+@mixin alignment-top-right {
+  --ai-h: flex-start;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-start;
+}
+@mixin alignment-right-top {
+  --ai-h: flex-start;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-start;
+}
+@mixin alignment-right {
+  --ai-h: flex-start;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-start;
+}
+@mixin alignment-bottom-left {
+  --ai-h: flex-end;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-end;
+}
+@mixin alignment-left-bottom {
+  --ai-h: flex-end;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-end;
+}
+@mixin alignment-bottom {
+  --ai-h: flex-end;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-end;
+}
+@mixin alignment-bottom-center {
+  --ai-h: flex-end;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-end;
+}
+@mixin alignment-center-bottom {
+  --ai-h: flex-end;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-end;
+}
+@mixin alignment-bottom-right {
+  --ai-h: flex-end;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-end;
+}
+@mixin alignment-right-bottom {
+  --ai-h: flex-end;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-end;
+}
+@mixin alignment-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-stretch-left {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-left-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-stretch-top {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-top-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-stretch-right {
+  --ai-h: stretch;
+  --jc-h: flex-end;
+  --ai-v: stretch;
+  --jc-v: flex-end;
+}
+@mixin alignment-right-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-end;
+  --ai-v: stretch;
+  --jc-v: flex-end;
+}
+@mixin alignment-stretch-bottom {
+  --ai-h: stretch;
+  --jc-h: flex-end;
+  --ai-v: stretch;
+  --jc-v: flex-end;
+}
+@mixin alignment-bottom-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-end;
+  --ai-v: stretch;
+  --jc-v: flex-end;
+}
+@mixin alignment-stretch-center {
+  --ai-h: stretch;
+  --jc-h: center;
+  --ai-v: stretch;
+  --jc-v: center;
+}
+@mixin alignment-center-stretch {
+  --ai-h: stretch;
+  --jc-h: center;
+  --ai-v: stretch;
+  --jc-v: center;
+}
+@mixin baseline {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-baseline-left {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-left-baseline {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-baseline-right {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-right-baseline {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-baseline-center {
+  --ai-h: baseline;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-start;
+}
+@mixin alignment-center-baseline {
+  --ai-h: baseline;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-start;
+}
+@mixin fts-element {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+}
+@mixin fts-layout {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+}
+@mixin fts-text {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: inline-block;
+}
+@mixin fts-stack {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fts-stack-children;
+  @include fts-stack-last-child;
+}
+@mixin fts-stack-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
+}
+@mixin fts-stack-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fts-layout {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fts-layout-children;
+  @include fts-layout-last-child;
+}
+@mixin fts-layout-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
+}
+@mixin fts-layout-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fts-flex-h {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: row nowrap;
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-int: var( --ai-h, initial );
+  --jc-int: var( --jc-h, initial );
+  @include fts-flex-h-children;
+  @include fts-flex-h-last-child;
+}
+@mixin fts-flex-h-children {
+  & > *:nth-child(n) {
+    --gap-h-int: var( --gap , var( --gap-h, initial ));
+    --gap-v-int: 0px;
+  }
+}
+@mixin fts-flex-h-last-child {
+  & > *:last-child {
+    --gap-h-int: 0px;
+  }
+}
+@mixin fts-flex-v {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: column nowrap;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+  --ai-int: var( --ai-v, initial );
+  --jc-int: var( --jc-v, initial );
+  @include fts-flex-v-children;
+  @include fts-flex-v-last-child;
+}
+@mixin fts-flex-v-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
+}
+@mixin fts-flex-v-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fts-center {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: column nowrap;
+  --ai-v: center;
+  --jc-v: center;
+  --ai-int: var( --ai-v, initial );
+  --jc-int: var( --jc-v, initial );
+  @include fts-center-children;
+  @include fts-center-last-child;
+}
+@mixin fts-center-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
+}
+@mixin fts-center-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fts-float {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fts-float-children;
+  @include fts-float-last-child;
+  @include fts-float-after;
+}
+@mixin fts-float-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: auto;
+    float: left;
+    clear: left;
+  }
+}
+@mixin fts-float-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fts-float-after {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+[style~="--fts-float-left:"] {
+  float: left;
+}
+[style~="--fts-float-right:"] {
+  float: right;
+}
+[style~="--fts-float-clear-left:"] {
+  clear: left;
+  float: left;
+}
+[style~="--fts-float-clear-right:"] {
+  clear: right;
+  float: right;
+}
+[style~="--fts-fill-children:"] > * {
+  flex: 1;
+}
+[style~="--fts-children-fill:"] > * {
+  flex: 1;
+}
+[style~="--fts-hide:"] {
+  display: none;
+}
