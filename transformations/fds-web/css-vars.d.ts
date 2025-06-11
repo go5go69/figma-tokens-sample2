@@ -7,7 +7,17 @@ export type FTSColorValue =
   'color-primary-600' |
   'color-primary-700' |
   'color-primary-800' |
-  'color-primary-900';
+  'color-primary-900' |
+  'color-secondary-100' |
+  'color-secondary-200' |
+  'color-secondary-300' |
+  'color-secondary-400' |
+  'color-secondary-500' |
+  'color-secondary' |
+  'color-secondary-600' |
+  'color-secondary-700' |
+  'color-secondary-800' |
+  'color-secondary-900';
 
 export type FTSSpacingValue =
   'spacing-col-0' |
