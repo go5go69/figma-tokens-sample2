@@ -138,6 +138,145 @@
           },
           "$type": "color"
         }
+      },
+      "secondary": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "secondary",
+          "dsys.nodeId": "10:2"
+        },
+        "$description": "secondary color tokens",
+        "secondary-100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:be7d4f22e5e2486e49b9f96df98ab1fa0588ab29,"
+          },
+          "$value": {
+            "hex": "#2e5c00",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary-200": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-200",
+            "dsys.index": 1,
+            "dsys.styleId": "S:c26011527b1fa594cd4dd496310f8307aef92693,"
+          },
+          "$value": {
+            "hex": "#427d08",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary-300": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-300",
+            "dsys.index": 2,
+            "dsys.styleId": "S:1b1deca4a4b6b06c262a1bdf52337daeb29a3e42,"
+          },
+          "$value": {
+            "hex": "#599e14",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary-400": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-400",
+            "dsys.index": 3,
+            "dsys.styleId": "S:e983a57af087923219ee4eab8775a86e7d59a410,"
+          },
+          "$value": {
+            "hex": "#72bf24",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary-500": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-500",
+            "dsys.index": 4,
+            "dsys.styleId": "S:7ed06b2259209fd7aa0be9ef01ae8b8c6f2ce0cf,"
+          },
+          "$value": {
+            "hex": "#8ce038",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary",
+            "dsys.index": 5,
+            "dsys.styleId": "S:7039de928bd455be41681aab6863232a5299473f,"
+          },
+          "$value": {
+            "hex": "#8ce038",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary-600": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-600",
+            "dsys.index": 6,
+            "dsys.styleId": "S:088061b534d37da1ff40fb790a336a1f4349a224,"
+          },
+          "$value": {
+            "hex": "#a1e85a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary-700": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-700",
+            "dsys.index": 7,
+            "dsys.styleId": "S:dbdc5663b9f428e03cfca2a45ae52dca2b5543ea,"
+          },
+          "$value": {
+            "hex": "#b7f07e",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary-800": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-800",
+            "dsys.index": 8,
+            "dsys.styleId": "S:3044f6b9632ce9a916bdf84f19f0b58a1f747971,"
+          },
+          "$value": {
+            "hex": "#cef7a4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "secondary-900": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "secondary-900",
+            "dsys.index": 9,
+            "dsys.styleId": "S:3a48ce5c94c0dd005dec61333df94cd1409f0849,"
+          },
+          "$value": {
+            "hex": "#e6ffcc",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
       }
     }
   }
